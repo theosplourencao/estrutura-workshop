@@ -29,7 +29,8 @@ theme:
 
 plugins:
   - social
-  - mkdocstrings
+  - mkdocstrings:
+      default_handler: python
 
 extra:
   social:
