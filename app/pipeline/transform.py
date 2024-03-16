@@ -1,9 +1,14 @@
-import pandas as pd
+"""Biblioteca para concatenar os dataframes."""
+
 from typing import List
+
+import pandas as pd
+
 
 def contact_data_frames(data_frame_list: List[pd.DataFrame]) -> pd.DataFrame:
     """
-    Transform your dataframe list into one unique dataframe
+    Transform your dataframe list into one unique dataframe.
+
     _summary_
 
     Args:
