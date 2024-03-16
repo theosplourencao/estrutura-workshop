@@ -1,0 +1,35 @@
+site_name: Primeiro projeto de dados
+site_author: Theo Lourenção
+repo_url: https://github.com/theosplourencao/estrutura-workshop
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          rendering:
+            show_source: true
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.tilde
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/mkdocs-bootstrap386@0.0.2/dist/mkdocs-bootstrap386.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mkdocs-bootstrap386@0.0.2/dist/mkdocs-bootstrap386.min.js
+
+dependencies:
+  - mkdocs==1.5.3
+  - mkdocstrings-python==1.7.2
+  - pygments==2.16.1
+  - mkdocs-material==9.4.4
+  - pymdown-extensions==10.3
+  - mkdocs-bootstrap386==0.0.2
