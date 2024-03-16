@@ -10,5 +10,6 @@ Nele foram trabalhadas três etapas do desenvolvimento de um projeto de dados:
 
 ## Depoimento
 O Workshop de 4 horas foi um banho de conhecimento para mim, que tenho background em dados porém nunca me aprofundei no desenvolvimento em Python e Git.   
-Sinto que evolui meu conhecimento e agora estou pronto para começar projetos de dados que podem ser mostrados para outras pessoas sem Receio.
+Sinto que evolui meu conhecimento e agora estou pronto para começar projetos de dados que podem ser mostrados para outras pessoas sem Receio.   
+Se eu fosse falar algum ponto negativo é que por ter sido a primeira experiência do professor com esse formato de evento, eu sinto que a resolução da tela e as vezes o não compartilhamento do código, prejudicava o meu desenvolvimento, mas de resto, achei muito bom.
 
