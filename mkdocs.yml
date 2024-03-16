@@ -52,14 +52,6 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - mdx_truly_sane_lists
 
 copyright: |
   &copy; 2023 <a href="https://github.com/theosplourencao"  target="_blank" rel="noopener">Theo Lourenção</a>
