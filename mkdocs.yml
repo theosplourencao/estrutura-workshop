@@ -1,35 +1,58 @@
-site_name: Primeiro projeto de dados
-site_author: Theo Lourenção
-repo_url: https://github.com/theosplourencao/estrutura-workshop
-
+site_name: Primeiro Projeto de Dados
+site_url: https://theosplourencao.github.io/estrutura-workshop/
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
 
 plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        python:
-          rendering:
-            show_source: true
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/theosplourencao
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/theo-louren%C3%A7%C3%A3o-779b05a3/
 
 markdown_extensions:
-  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
   - pymdownx.details
-  - pymdownx.highlight
-  - pymdownx.tabbed
-  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
-extra_css:
-  - https://cdn.jsdelivr.net/npm/mkdocs-bootstrap386@0.0.2/dist/mkdocs-bootstrap386.min.css
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mkdocs-bootstrap386@0.0.2/dist/mkdocs-bootstrap386.min.js
-
-dependencies:
-  - mkdocs==1.5.3
-  - mkdocstrings-python==1.7.2
-  - pygments==2.16.1
-  - mkdocs-material==9.4.4
-  - pymdown-extensions==10.3
-  - mkdocs-bootstrap386==0.0.2
+copyright: |
+  &copy; 2023 <a href="https://github.com/theosplourencao"  target="_blank" rel="noopener">Theo Lourenção</a>

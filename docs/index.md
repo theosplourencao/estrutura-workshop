@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Início    
+Esse projeto é o primeiro em que eu faço uma criação no Github + Python fazendo o código pelo VsCode. O modelo que eu segui foi criado pelo Luciano Galvão Filho em seu Workshop "Como estruturar seu projeto de dados do zero". 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Desenvolvimento
 
-## Commands
+Nele foram trabalhadas três etapas do desenvolvimento de um projeto de dados:   
+1 - Preparação do Ambiente;   
+2 - Criação da ETL;   
+3 - Documentação.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Depoimento
+O Workshop de 4 horas foi um banho de conhecimento para mim, que tenho background em dados porém nunca me aprofundei no desenvolvimento em Python e Git.   
+Sinto que evolui meu conhecimento e agora estou pronto para começar projetos de dados que podem ser mostrados para outras pessoas sem Receio.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
