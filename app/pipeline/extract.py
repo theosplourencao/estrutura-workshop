@@ -6,7 +6,7 @@ from typing import List
 
 import pandas as pd
 
-path = 'data/input'
+path = "data/input"
 
 
 def extract_from_excel(path: str) -> list[pd.DataFrame]:
@@ -19,7 +19,7 @@ def extract_from_excel(path: str) -> list[pd.DataFrame]:
 
 
     """
-    all_files = glob.glob(os.path.join(path, '*.xlsx'))
+    all_files = glob.glob(os.path.join(path, "*.xlsx"))
 
     data_frame_list = []
     for file in all_files:
@@ -28,6 +28,6 @@ def extract_from_excel(path: str) -> list[pd.DataFrame]:
     return data_frame_list
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data_frame_list = extract_from_excel(path)
     print(data_frame_list)
